@@ -21,6 +21,9 @@ while True:
 	elif ((("execute" in p) or ("launch" in p) or ("run" in p) or ("open" in p) or ("start" in p)) and ("notepad" in p)):
 			print("Starting notepad....")
 			os.system("notepad")
+	elif ((("execute" in p) or ("launch" in p) or ("run" in p) or ("open" in p) or ("start" in p)) and ("chrome" in p)):
+			print("Starting chrome browser....")
+			os.system("chrome")
 	elif ((("execute" in p) or ("launch" in p) or ("run" in p) or ("open" in p) or ("start" in p)) and ("outlook" in p)):
 			print("Starting outlook....")
 			os.startfile("outlook")
@@ -105,7 +108,7 @@ while True:
 	elif ((("execute" in p) or ("launch" in p) or ("run" in p) or ("open" in p) or ("start" in p)) and ("systempropertiesadvanced" in p  in p or "system properties advanced" in p or "system properties" in p)):
 			print("Starting System properties advance...")		
 			os.system("SystemPropertiesAdvanced")
-	elif ((("execute" in p) or ("launch" in p) or ("run" in p) or ("open" in p) or ("start" in p)) and ("notebook" or "jupyter notebook" in p or "jupyternotebook" in p)):
+	elif ((("execute" in p) or ("launch" in p) or ("run" in p) or ("open" in p) or ("start" in p)) and ("jupyter notebook" in p or "jupyternotebook" in p)):
 			print("Starting jupyter notebook...")
 			os.system("jupyter notebook")
 	elif (("close" in p) or ("quit" in p) or ("exit" in p) or ("terminate" in p)):
