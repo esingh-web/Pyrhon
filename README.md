@@ -1,2 +1,2 @@
-# Pyrhon
+# Python
 My first python repository
